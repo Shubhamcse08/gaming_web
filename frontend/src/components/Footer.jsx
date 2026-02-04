@@ -10,12 +10,12 @@ const socialLinks = [
 const Footer = () => {
   return (
     <footer className="w-screen bg-[#5542ff] py-4 text-black">
-      <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
+      <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 ">
         <p className="text-center text-sm font-light md:text-left">
           ©Shubham Singh 2026. All rights reserved
         </p>
 
-        <div className="flex justify-center gap-4  md:justify-start">
+        <div className="flex justify-center gap-4  ">
           {socialLinks.map((link, index) => (
             <a
               key={index}
@@ -31,7 +31,7 @@ const Footer = () => {
 
         <a
           href="#privacy-policy"
-          className="text-center text-sm font-light hover:underline md:text-right"
+          className="text-center text-sm font-light hover:underline "
         >
           Privacy Policy
         </a>
